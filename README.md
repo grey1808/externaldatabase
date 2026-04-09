@@ -42,7 +42,7 @@ make shell
 
 ## Подключение к основному проекту (litmarket)
 
-В файле `/home/grey/LitmarketProject/litmarket/.env` установить:
+В файле `/home/litmarket/.env` установить:
 
 ```env
 DB_CONNECTION=mysql
