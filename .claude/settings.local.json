@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/grey/LitmarketProject/litmarket/**)",
+      "Bash(make import:*)",
+      "Bash(docker run:*)",
+      "Bash(docker exec litmarket_db:*)",
+      "Bash(grep -n 'hasMany\\\\|hasOne\\\\|belongsTo\\\\|belongsToMany\\\\|public function\\\\|protected $table' /home/grey/LitmarketProject/litmarket/services/app/app/Models/Book/Book.php)",
+      "Bash(grep:*)"
+    ]
+  }
+}
