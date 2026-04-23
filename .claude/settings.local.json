@@ -6,7 +6,26 @@
       "Bash(docker run:*)",
       "Bash(docker exec litmarket_db:*)",
       "Bash(grep -n 'hasMany\\\\|hasOne\\\\|belongsTo\\\\|belongsToMany\\\\|public function\\\\|protected $table' /home/grey/LitmarketProject/litmarket/services/app/app/Models/Book/Book.php)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(nslookup c-c9qmn1t6kipdvpi8b3ev.rw.mdb.yandexcloud.net)",
+      "Bash(dig c-c9qmn1t6kipdvpi8b3ev.rw.mdb.yandexcloud.net +short)",
+      "Bash(dig yandex.ru +short)",
+      "Bash(curl -s --max-time 5 ifconfig.me)",
+      "Bash(dig *)",
+      "Bash(docker exec *)",
+      "Bash(docker network *)",
+      "Bash(getent hosts *)",
+      "Read(//etc/**)",
+      "Bash(mysql -h 127.0.0.1 -P 3307 -u mysql -plitmarket -e \"SELECT 1\" lm_db)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(ip rule *)",
+      "Bash(ip route *)",
+      "Bash(docker compose *)",
+      "Bash(mysql -h 127.0.0.1 -P 3307 -u mysql -plitmarket -e \"SELECT 'OK' as status\" lm_db)",
+      "Bash(git -C /home/grey/PhpstormProjects/LitmarketDb status)",
+      "Bash(git -C /home/grey/PhpstormProjects/LitmarketDb diff)",
+      "Bash(git -C /home/grey/PhpstormProjects/LitmarketDb add docker-compose.yml)",
+      "Bash(git -C /home/grey/PhpstormProjects/LitmarketDb commit -m ' *)"
     ]
   }
 }
